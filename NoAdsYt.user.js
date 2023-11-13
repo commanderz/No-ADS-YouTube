@@ -21,7 +21,7 @@ let ogVolume=1,pbRate = 1;setInterval(()=>{
         if(document.getElementsByClassName("ytp-ad-text ytp-ad-skip-button-text")[0]!==undefined){let skipBtn=document.getElementsByClassName("ytp-ad-text ytp-ad-skip-button-text")[0];skipBtn.click()}
         if(document.getElementsByClassName("ytp-ad-message-container")[0]!==undefined){let incomingAd=document.getElementsByClassName("ytp-ad-message-container")[0];incomingAd.style.display="none"}
         if(document.getElementsByClassName("style-scope ytd-companion-slot-renderer")[0]!==undefined){document.getElementsByClassName("style-scope ytd-companion-slot-renderer")[0].remove()}
-        if(ad!==undefined){if(ad.children.length>0){if(document.getElementsByClassName("ytp-ad-text ytp-ad-preview-text")[0]!==undefined)
+        if(ad!==undefined){if(ad.children.length>0){if(document.querySelector(".ytp-ad-text[class*='ytp-ad-preview-text']")!==undefined)
         {vid.playbackRate=16;vid.muted=true;}}}if(document.getElementById("masthead-ad")!==null){let headerAd=document.getElementById("masthead-ad");headerAd.remove()}
         if(document.getElementsByTagName("ytd-ad-slot-renderer")[0]!==undefined){let rightSideAd=document.getElementsByTagName("ytd-ad-slot-renderer")[0];rightSideAd.remove()}
         if(document.getElementsByTagName("ytd-reel-shelf-renderer")[0]!==undefined){let rightSideShorts=document.getElementsByTagName("ytd-reel-shelf-renderer")[0];rightSideShorts.remove()}}
