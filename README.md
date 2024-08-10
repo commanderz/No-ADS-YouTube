@@ -12,7 +12,9 @@ Skips all youtube ads  |  removes banner and sidebar ads | skips ads instantly
   <li>Set Bookmark Name: "STOP YOUTUBE ADS"</li><br>
   <li>Set Bookmark URL: (copy paste from js file in this repo)</li><br>
   <li>Open a YouTube video.</li><br>
+  <li>Click on your new Bookmark "STOP YOUTUBE ADS" (AHTUNG! Needs to click once on any new window, not click on any videos in the same window - this is overload your cpu).</li><br>
   <li>Enjoy an AD free YouTube video!</li><br>
+  <li>ps. needs to click once </li><br>
 </ol>
 
 
